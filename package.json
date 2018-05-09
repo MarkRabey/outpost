@@ -1,5 +1,6 @@
 {
   "name": "outpost",
+  "productName": "Outpost",
   "version": "0.1.0",
   "license": "SEE LICENSE",
   "main": "./dist/main/main.js",
@@ -33,8 +34,8 @@
     ]
   },
   "build": {
-    "productName": "ProductName",
-    "appId": "org.your.productname",
+    "productName": "Outpost",
+    "appId": "com.markrabey.outpost",
     "mac": {
       "category": "your.app.category.type"
     },
