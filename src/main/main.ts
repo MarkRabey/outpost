@@ -8,9 +8,10 @@ const isDevMode = process.execPath.match(/[\\/]electron/) && process.env.NODE_EN
 const createWindow = async () => {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    height: 600,
-    width: 800,
-    show: false
+    width: 320,
+    height: 640,
+    titleBarStyle: 'hiddenInset',
+    show: false,
   });
 
   // and load the index.html of the app.
