@@ -1,6 +1,6 @@
 {
-  "name": "angular-electron",
-  "version": "0.0.0",
+  "name": "outpost",
+  "version": "0.1.0",
   "license": "SEE LICENSE",
   "main": "./dist/main/main.js",
   "scripts": {
@@ -56,16 +56,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:MarkRabey/angular-electron.git"
+    "url": "git+ssh://git@github.com:MarkRabey/outpost.git"
   },
   "author": {
     "name": "Mark Rabey",
     "email": "mark@markrabey.com"
   },
   "bugs": {
-    "url": "https://github.com/MarkRabey/angular-electron/issues"
+    "url": "https://github.com/MarkRabey/outpost/issues"
   },
-  "homepage": "https://github.com/MarkRabey/angular-electron",
+  "homepage": "https://github.com/MarkRabey/outpost",
   "dependencies": {
     "@angular/animations": "^5.2.0",
     "@angular/common": "^5.2.0",
