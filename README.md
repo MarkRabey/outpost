@@ -3,7 +3,7 @@
 [![License][license-badge]](LICENSE.md)
 [![Watch on GitHub][github-watch-badge]][github-watch]
 [![Star on GitHub][github-star-badge]][github-star]
-[![Tweet][twitter-badge]][twitter]
+<!-- [![Tweet][twitter-badge]][twitter] -->
 
 # Outpost
 
