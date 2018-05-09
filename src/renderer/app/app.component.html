@@ -1,20 +1,52 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div class="topbar"></div>
+<div class="app uk-flex-center uk-flex-middle uk-child-width-1-1" uk-grid>
+  
+  <!-- Current Weather -->
+  <section class="uk-width-auto">
+    <div class="uk-text-center uk-container">
+      <h1 class="uk-heading-divider">
+        22&deg;
+      </h1>
+      <p class="uk-text-meta">
+        clear, sunny
+      </p>
+    </div>
+  </section>
+  
+  <section class="uk-text-center">
+    <!-- Location -->
+    <div class="uk-container uk-grid-collapse uk-child-width-1-2" uk-grid>
+      <div>Wednesday, May 9th</div>
+      <div>Midland, Ontario</div>
+    </div>
+    <!-- Forecast -->
+    <div class="uk-container uk-grid-center uk-child-width-1-4" uk-grid>
+      <div>
+        <div>thurs</div>
+        <div class="weather-icon" data-icon="A"></div>
+        <div>20&deg;</div>
+      </div>
+
+      <div>
+        <div>fri</div>
+        <div class="weather-icon" data-icon="B"></div>
+        <div>21&deg;</div>
+      </div>
+
+      <div>
+        <div>sat</div>
+        <div class="weather-icon" data-icon="C"></div>
+        <div>22&deg;</div>
+      </div>
+      
+      <div>
+        <div>sun</div>
+        <div class="weather-icon" data-icon="D"></div>
+        <div>23&deg;</div>
+      </div>
+    </div>
+  </section>
+
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+
 

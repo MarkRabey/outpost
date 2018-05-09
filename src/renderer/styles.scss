@@ -7,3 +7,12 @@
 
 // Import  UIkit
 @import '../../node_modules/uikit/src/scss/uikit-theme';
+
+
+// Meteocons
+@import './assets/meteocons/stylesheet.css';
+
+html,
+body {
+  height: 100%;
+}

@@ -1,0 +1,8 @@
+.app {
+  height: 100%;
+  margin-top: -40px;
+}
+  .topbar {
+    height: 40px;
+    -webkit-app-region: drag;
+  }
