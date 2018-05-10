@@ -2,6 +2,8 @@ import { app, BrowserWindow } from 'electron';
 import * as path from 'path';
 import * as url from 'url';
 
+process.env.GOOGLE_API_KEY = 'AIzaSyCmOdsSHF1SAOixWcuvkKB9Oyi_DoN374Q';
+
 let mainWindow: Electron.BrowserWindow;
 const isDevMode = process.execPath.match(/[\\/]electron/) && process.env.NODE_ENV !== 'production';
 
