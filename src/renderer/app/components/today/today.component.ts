@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+import { WeatherService } from '../../services/weather.service';
 @Component({
   selector: 'app-today',
   templateUrl: './today.component.html',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TodayComponent implements OnInit {
 
-  constructor() { }
+  constructor(private weatherService: WeatherService) { }
 
   ngOnInit() {
   }
