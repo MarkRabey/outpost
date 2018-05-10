@@ -3,6 +3,7 @@
 [![License][license-badge]](LICENSE.md)
 [![Watch on GitHub][github-watch-badge]][github-watch]
 [![Star on GitHub][github-star-badge]][github-star]
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMarkRabey%2Foutpost.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMarkRabey%2Foutpost?ref=badge_shield)
 <!-- [![Tweet][twitter-badge]][twitter] -->
 
 # Outpost
@@ -23,3 +24,6 @@ More info to come
 [github-star]: https://github.com/MarkRabey/outpost/stargazers
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20outpost!%20https://github.com/MarkRabey/outpost%20%F0%9F%91%8D
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/MarkRabey/outpost.svg?style=flat-square
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMarkRabey%2Foutpost.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FMarkRabey%2Foutpost?ref=badge_large)
