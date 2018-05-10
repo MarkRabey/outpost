@@ -8,11 +8,10 @@
   
   <section class="uk-text-center">
     <!-- Location -->
-    <div class="uk-container uk-child-width-1-2" uk-grid>
+    <div class="uk-container" uk-grid>
       <div>
         {{ today | amDateFormat:'dddd, MMMM Do YYYY'}}
       </div>
-      <div>{{ currentLocation }}</div>
     </div>
     <!-- Forecast -->
     <div class="uk-container uk-grid-center uk-child-width-1-{{ forecastDates.length }}" uk-grid>
