@@ -3,50 +3,22 @@
   
   <!-- Current Weather -->
   <section class="uk-width-auto">
-    <div class="uk-text-center uk-container">
-      <h1 class="uk-heading-divider">
-        22&deg;
-      </h1>
-      <p class="uk-text-meta">
-        clear, sunny
-      </p>
-    </div>
+    <app-today></app-today>
   </section>
   
   <section class="uk-text-center">
     <!-- Location -->
-    <div class="uk-container uk-grid-collapse uk-child-width-1-2" uk-grid>
-      <div>Wednesday, May 9th</div>
-      <div>Midland, Ontario</div>
+    <div class="uk-container uk-child-width-1-2" uk-grid>
+      <div>
+        {{ today | amDateFormat:'dddd, MMMM Do YYYY'}}
+      </div>
+      <div>{{ currentLocation }}</div>
     </div>
     <!-- Forecast -->
-    <div class="uk-container uk-grid-center uk-child-width-1-4" uk-grid>
-      <div>
-        <div>thurs</div>
-        <div class="weather-icon" data-icon="A"></div>
-        <div>20&deg;</div>
-      </div>
-
-      <div>
-        <div>fri</div>
-        <div class="weather-icon" data-icon="B"></div>
-        <div>21&deg;</div>
-      </div>
-
-      <div>
-        <div>sat</div>
-        <div class="weather-icon" data-icon="C"></div>
-        <div>22&deg;</div>
-      </div>
-      
-      <div>
-        <div>sun</div>
-        <div class="weather-icon" data-icon="D"></div>
-        <div>23&deg;</div>
-      </div>
+    <div class="uk-container uk-grid-center uk-child-width-1-{{ forecastDates.length }}" uk-grid>
+      <app-forecast *ngFor="let date of forecastDates" [date]="date"></app-forecast>
     </div>
   </section>
-
 </div>
 
 

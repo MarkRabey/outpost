@@ -3,9 +3,9 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-electron": {
+    "outpost": {
       "root": "",
-      "sourceRoot": "src",
+      "sourceRoot": "src/renderer",
       "projectType": "application",
       "architect": {
         "build": {
@@ -51,18 +51,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-electron:build"
+            "browserTarget": "outpost:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-electron:build:production"
+              "browserTarget": "outpost:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-electron:build"
+            "browserTarget": "outpost:build"
           }
         },
         "test": {
@@ -96,7 +96,7 @@
         }
       }
     },
-    "angular-electron-e2e": {
+    "outpost-e2e": {
       "root": "",
       "sourceRoot": "",
       "projectType": "application",
@@ -105,7 +105,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "angular-electron:serve"
+            "devServerTarget": "outpost:serve"
           }
         },
         "lint": {
@@ -122,7 +122,7 @@
       }
     }
   },
-  "defaultProject": "angular-electron",
+  "defaultProject": "outpost",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
